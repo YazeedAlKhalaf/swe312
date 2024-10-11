@@ -37,7 +37,7 @@ public class Ex2 extends Application {
         title.setFont(Font.font("Times New Roman", FontWeight.BOLD, 48));
         title.setFill(Color.ORANGE);
         
-        ImageView burgerImg = new ImageView(new Image(getClass().getResourceAsStream("/lab3/resources/hamburger.jpg")));
+        ImageView burgerImg = new ImageView(new Image("file:src/lab3/resources/hamburger.jpg"));
         burgerImg.setFitHeight(47.3);
         burgerImg.setFitWidth(64);
                 

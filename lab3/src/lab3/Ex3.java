@@ -29,7 +29,7 @@ public class Ex3 extends Application {
         root.setVgap(8);
         root.setPadding(new Insets(16));
         
-        ImageView bmiImg = new ImageView(new Image(getClass().getResourceAsStream("/lab3/resources/bmi.png")));
+        ImageView bmiImg = new ImageView(new Image("file:src/lab3/resources/bmi.png"));
         bmiImg.setFitHeight(64);
         bmiImg.setFitWidth(64);
         
