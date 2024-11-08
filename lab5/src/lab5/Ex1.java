@@ -17,7 +17,7 @@ import javafx.stage.Stage;
  *
  * @author human
  */
-public class Lab5 extends Application {
+public class Ex1 extends Application {
     
     @Override
     public void start(Stage primaryStage) {
