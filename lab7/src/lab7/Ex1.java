@@ -34,6 +34,7 @@ public class Ex1 extends Application {
         pt.setNode(node);
         pt.setDuration(Duration.millis(1500));
         pt.setCycleCount(PathTransition.INDEFINITE);
+        pt.setAutoReverse(true);
         pt.play();
         
         StackPane root = new StackPane();
